@@ -9,8 +9,6 @@ class GradientContainer extends StatelessWidget {
 
   final List<Color> colors;
 
-
-
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -21,9 +19,7 @@ class GradientContainer extends StatelessWidget {
           end: endAlignment,
         ),
       ),
-      child: const Center(
-          child: RollDice()
-      ),
+      child: const Center(child: RollDice()),
     );
   }
 }
